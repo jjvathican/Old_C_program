@@ -1,0 +1,25 @@
+net start Adobe Active File Monitor
+net start Adobe LM Service
+net start Application Layer Gateway Service
+net start Ati HotKey Poller
+net start Background Intelligent Transfer Service
+net start Bluetooth Service
+net start Cisco Systems, Inc. VPN Service
+net start COM+ Event System
+net start Computer Browser
+net start Cryptographic Services
+net start DCOM Server Process Launcher
+net start DHCP Client
+net start Distributed Link Tracking Client
+net start DNS Client
+net start Error Reporting Service
+net start Event Log
+net start FTP Publishing
+net start Help and Support
+net start HID Input Service
+net start HP WMI Interface
+net start IIS Admin
+net start Infrared Monitor
+net start Logical Disk Manager
+net start Machine Debug Manager
+net start Microsoft Search

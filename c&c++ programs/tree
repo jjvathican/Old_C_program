@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+struct tree
+{
+	int x;
+	double *next;
+	double *prev;
+}
+int main()
+{
+	tree *t1;
+	tree *tem;
+	t1 = new t1;
+	do
+	{
+	temp = t1;
+	t1.x=2;
+	t1=t1+1;
+	temp->next= 
+	}while();
+	
+    cout << "Hello World";
+	return 0;
+}

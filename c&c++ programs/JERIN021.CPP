@@ -1,0 +1,24 @@
+#include<iostream>
+int main()
+{
+int  a,i,b,j;
+for(i=100;i<=999;++i)
+{
+a=i;
+for(j=1,b=1;j<=3&&b==j;++j)
+{
+while(a>0)
+{
+b=a%10;
+if(b==j)
+{break;}
+a=a/10;
+}
+}
+if(j==3)
+{
+cout<<i<<"\n";
+}
+}
+return 0;
+}

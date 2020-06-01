@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,j,y=4,u=3,n[12],m[12],a[4][3];
+clrscr();
+for(i=0;i<y;++i)
+{
+n[i]=0;
+for(j=0;j<u;++j)
+{
+if(i==0)
+{m[j]=0;}
+scanf("%d",&a[i][j]);
+n[i]+=a[i][j];
+m[j]+=a[i][j];
+}
+}
+for(i=0;i<y;++i)
+{
+for(j=0;j<u;++j)
+{
+printf("%3d|",a[i][j]);
+}
+printf("%3d\n",n[i]);
+}
+for(j=0;j<u;++j)
+{
+printf("%3d|",m[j]);
+}
+getch();
+}
